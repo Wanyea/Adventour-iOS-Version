@@ -2,14 +2,17 @@
 //  ContentView.swift
 //  Adventour
 //
-//  Created by Lisa Barbel on 12/19/21.
+//  Created by Wanyea Barbel on 12/19/21.
 //
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        Text("Good morning,")
+            .padding()
+        
+        Text("Where will your next Adventour be?")
             .padding()
     }
 }
