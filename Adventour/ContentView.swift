@@ -7,6 +7,7 @@
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
         Text("Good morning,")
@@ -15,6 +16,7 @@ struct ContentView: View {
         Text("Where will your next Adventour be?")
             .padding()
     }
+
 }
 
 struct ContentView_Previews: PreviewProvider {

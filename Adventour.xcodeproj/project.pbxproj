@@ -14,6 +14,9 @@
 		7B7E704A276FE32800F50C42 /* AdventourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E7049276FE32800F50C42 /* AdventourTests.swift */; };
 		7B7E7054276FE32800F50C42 /* AdventourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E7053276FE32800F50C42 /* AdventourUITests.swift */; };
 		7B7E7056276FE32800F50C42 /* AdventourUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E7055276FE32800F50C42 /* AdventourUITestsLaunchTests.swift */; };
+		7B7E706327701B0700F50C42 /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B7E706227701B0700F50C42 /* LottieView.swift */; };
+		7B7E706627701E0A00F50C42 /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = 7B7E706527701E0A00F50C42 /* Lottie */; };
+		7B7E70692770261D00F50C42 /* 85352-globe.json in Resources */ = {isa = PBXBuildFile; fileRef = 7B7E70682770261D00F50C42 /* 85352-globe.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		11C2E550A078FBAFB7F29D22 /* Pods-Adventour-AdventourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventour-AdventourUITests.debug.xcconfig"; path = "Target Support Files/Pods-Adventour-AdventourUITests/Pods-Adventour-AdventourUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		5BB7C5866FB2719D7463013E /* Pods-AdventourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventourTests.debug.xcconfig"; path = "Target Support Files/Pods-AdventourTests/Pods-AdventourTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7B7E7035276FE2C800F50C42 /* Adventour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Adventour.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7E7038276FE2C900F50C42 /* AdventourApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventourApp.swift; sourceTree = "<group>"; };
 		7B7E703A276FE2C900F50C42 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +49,12 @@
 		7B7E704F276FE32800F50C42 /* AdventourUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AdventourUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7B7E7053276FE32800F50C42 /* AdventourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventourUITests.swift; sourceTree = "<group>"; };
 		7B7E7055276FE32800F50C42 /* AdventourUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdventourUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7B7E706227701B0700F50C42 /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		7B7E70682770261D00F50C42 /* 85352-globe.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "85352-globe.json"; sourceTree = "<group>"; };
+		932650102CA844C5CE8DF6D5 /* Pods-AdventourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdventourTests.release.xcconfig"; path = "Target Support Files/Pods-AdventourTests/Pods-AdventourTests.release.xcconfig"; sourceTree = "<group>"; };
+		9DF78AC47840CAA46732774E /* Pods-Adventour-AdventourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventour-AdventourUITests.release.xcconfig"; path = "Target Support Files/Pods-Adventour-AdventourUITests/Pods-Adventour-AdventourUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A4D813519D3B85B7A463A9A1 /* Pods-Adventour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventour.release.xcconfig"; path = "Target Support Files/Pods-Adventour/Pods-Adventour.release.xcconfig"; sourceTree = "<group>"; };
+		BEEF91F61890056F028240E1 /* Pods-Adventour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Adventour.debug.xcconfig"; path = "Target Support Files/Pods-Adventour/Pods-Adventour.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7B7E706627701E0A00F50C42 /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +83,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1B7B9F8AEE62ED39576E7C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7B7E702C276FE2C700F50C42 = {
 			isa = PBXGroup;
 			children = (
@@ -78,6 +97,8 @@
 				7B7E7048276FE32800F50C42 /* AdventourTests */,
 				7B7E7052276FE32800F50C42 /* AdventourUITests */,
 				7B7E7036276FE2C800F50C42 /* Products */,
+				C22A121464DE2AB61EDCDD5E /* Pods */,
+				2D1B7B9F8AEE62ED39576E7C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,10 +115,12 @@
 		7B7E7037276FE2C800F50C42 /* Adventour */ = {
 			isa = PBXGroup;
 			children = (
+				7B7E70672770261D00F50C42 /* Lottie */,
 				7B7E7038276FE2C900F50C42 /* AdventourApp.swift */,
 				7B7E703A276FE2C900F50C42 /* ContentView.swift */,
 				7B7E703C276FE32300F50C42 /* Assets.xcassets */,
 				7B7E703E276FE32300F50C42 /* Preview Content */,
+				7B7E706227701B0700F50C42 /* LottieView.swift */,
 			);
 			path = Adventour;
 			sourceTree = "<group>";
@@ -127,6 +150,27 @@
 			path = AdventourUITests;
 			sourceTree = "<group>";
 		};
+		7B7E70672770261D00F50C42 /* Lottie */ = {
+			isa = PBXGroup;
+			children = (
+				7B7E70682770261D00F50C42 /* 85352-globe.json */,
+			);
+			path = Lottie;
+			sourceTree = "<group>";
+		};
+		C22A121464DE2AB61EDCDD5E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BEEF91F61890056F028240E1 /* Pods-Adventour.debug.xcconfig */,
+				A4D813519D3B85B7A463A9A1 /* Pods-Adventour.release.xcconfig */,
+				11C2E550A078FBAFB7F29D22 /* Pods-Adventour-AdventourUITests.debug.xcconfig */,
+				9DF78AC47840CAA46732774E /* Pods-Adventour-AdventourUITests.release.xcconfig */,
+				5BB7C5866FB2719D7463013E /* Pods-AdventourTests.debug.xcconfig */,
+				932650102CA844C5CE8DF6D5 /* Pods-AdventourTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B7E7059276FE32800F50C42 /* Build configuration list for PBXNativeTarget "Adventour" */;
 			buildPhases = (
+				78914609F22019359D5CD7A5 /* [CP] Check Pods Manifest.lock */,
 				7B7E7031276FE2C700F50C42 /* Sources */,
 				7B7E7032276FE2C700F50C42 /* Frameworks */,
 				7B7E7033276FE2C700F50C42 /* Resources */,
@@ -143,6 +188,9 @@
 			dependencies = (
 			);
 			name = Adventour;
+			packageProductDependencies = (
+				7B7E706527701E0A00F50C42 /* Lottie */,
+			);
 			productName = Adventour;
 			productReference = 7B7E7035276FE2C800F50C42 /* Adventour.app */;
 			productType = "com.apple.product-type.application";
@@ -151,6 +199,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B7E705C276FE32800F50C42 /* Build configuration list for PBXNativeTarget "AdventourTests" */;
 			buildPhases = (
+				0043A0DEDE1532354EEFE91A /* [CP] Check Pods Manifest.lock */,
 				7B7E7041276FE32800F50C42 /* Sources */,
 				7B7E7042276FE32800F50C42 /* Frameworks */,
 				7B7E7043276FE32800F50C42 /* Resources */,
@@ -169,6 +218,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7B7E705F276FE32800F50C42 /* Build configuration list for PBXNativeTarget "AdventourUITests" */;
 			buildPhases = (
+				3BA056A25CCA8CA7BAF00206 /* [CP] Check Pods Manifest.lock */,
 				7B7E704B276FE32800F50C42 /* Sources */,
 				7B7E704C276FE32800F50C42 /* Frameworks */,
 				7B7E704D276FE32800F50C42 /* Resources */,
@@ -215,6 +265,9 @@
 				Base,
 			);
 			mainGroup = 7B7E702C276FE2C700F50C42;
+			packageReferences = (
+				7B7E706427701E0900F50C42 /* XCRemoteSwiftPackageReference "lottie-ios" */,
+			);
 			productRefGroup = 7B7E7036276FE2C800F50C42 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -233,6 +286,7 @@
 			files = (
 				7B7E7040276FE32300F50C42 /* Preview Assets.xcassets in Resources */,
 				7B7E703D276FE32300F50C42 /* Assets.xcassets in Resources */,
+				7B7E70692770261D00F50C42 /* 85352-globe.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -252,6 +306,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0043A0DEDE1532354EEFE91A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdventourTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3BA056A25CCA8CA7BAF00206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adventour-AdventourUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		78914609F22019359D5CD7A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Adventour-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7B7E7031276FE2C700F50C42 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -259,6 +382,7 @@
 			files = (
 				7B7E703B276FE2C900F50C42 /* ContentView.swift in Sources */,
 				7B7E7039276FE2C900F50C42 /* AdventourApp.swift in Sources */,
+				7B7E706327701B0700F50C42 /* LottieView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -329,6 +453,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -390,6 +515,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -413,6 +539,7 @@
 		};
 		7B7E705A276FE32800F50C42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEEF91F61890056F028240E1 /* Pods-Adventour.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -442,6 +569,7 @@
 		};
 		7B7E705B276FE32800F50C42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4D813519D3B85B7A463A9A1 /* Pods-Adventour.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +599,7 @@
 		};
 		7B7E705D276FE32800F50C42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BB7C5866FB2719D7463013E /* Pods-AdventourTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -490,6 +619,7 @@
 		};
 		7B7E705E276FE32800F50C42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 932650102CA844C5CE8DF6D5 /* Pods-AdventourTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +639,7 @@
 		};
 		7B7E7060276FE32800F50C42 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 11C2E550A078FBAFB7F29D22 /* Pods-Adventour-AdventourUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +657,7 @@
 		};
 		7B7E7061276FE32800F50C42 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DF78AC47840CAA46732774E /* Pods-Adventour-AdventourUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -581,6 +713,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7B7E706427701E0900F50C42 /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7B7E706527701E0A00F50C42 /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7B7E706427701E0900F50C42 /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7B7E702D276FE2C700F50C42 /* Project object */;
 }
