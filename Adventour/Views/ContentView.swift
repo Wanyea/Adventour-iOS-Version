@@ -9,10 +9,9 @@ import SwiftUI
 import MapKit
 
 struct ContentView: View {
-    
+    @StateObject private var viewModel = MapViewModel()
     @State var location: String = ""
- 
-    
+
     var body: some View {
         
         Text("Good morning Wanyea,")
@@ -30,7 +29,12 @@ struct ContentView: View {
             print("Button tapped!")
         }
         
-        MapView()
+        //MapView()
+        Map(coordinateRegion: $viewModel.region, showsUserLocation: true)
+            .accentColor(Color(.systemRed))
+            .onAppear{
+                viewModel.checkIfLocationServicesIsEnabled()
+            }
         
     }
 
@@ -41,3 +45,4 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
+
